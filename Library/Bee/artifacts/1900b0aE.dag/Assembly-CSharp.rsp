@@ -346,6 +346,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/buildManeger.cs"
+"Assets/CameraController.cs"
 "Assets/node.cs"
 "Assets/scripts/Bullet.cs"
 "Assets/scripts/enemy.cs"

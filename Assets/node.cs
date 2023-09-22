@@ -8,6 +8,7 @@ public class node : MonoBehaviour {
      
     private GameObject turret;
     private Renderer rend;
+    public Vector3 positionOffset;
     public Color hoverColor;
     private Color startColor;
     void Start ()
@@ -24,7 +25,7 @@ public class node : MonoBehaviour {
             return;
         }
         GameObject turretToBuild = buildManeger.instance.GetTurrrtToBuild();
-        turret =(GameObject)Instantiate(turretToBuild, transform.position, transform.rotation);
+        turret =(GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
     }
     private void OnMouseEnter()
     {
